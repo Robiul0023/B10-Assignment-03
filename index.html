@@ -14,10 +14,14 @@
     <!-- Tailwind CSS and DaisyUI CDN Link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <style>
     .font-poppins{
         font-family: "Poppins", sans-serif;
+    }
+    .letsConnet{
+      background-image: url('./assets/bg.jpg');
     }
 </style>
 
@@ -29,6 +33,7 @@
           colors: {
             clifford: '#da373d',
             'reinterio-primary-bg': '#F5F5F5',
+            
             
           }
         }
@@ -106,7 +111,7 @@
     </div>
 </nav> 
   <!-- Banner Section -->
-  <div class="px-32  bg-gradient-to-r from-slate-50 to-white-500 py-10">
+  <div class="px-10 md:px-32  bg-gradient-to-r from-slate-50 to-white-500 py-10">
     <div>
       <img class="mx-auto" src="./assets/banner.png" alt="Shoes" />
           
@@ -125,10 +130,10 @@
     <main>
       <!-- About Us Section -->
       <section class="bg-slate-50 w-full pt-10">
-        <div class="md:ml-20">
-          <img class = "rotate-6" src="./assets/Vector.png" alt="" srcset="">
+        <div class="px-8 mr-10 md:ml-20">
+          <img class = "rotate-8 md:rotate-6  text-xl" src="./assets/Vector.png" alt="" srcset="">
         </div>
-        <div class="flex flex-col lg:flex-row items-center gap-10 px-32 ">
+        <div class="flex flex-col lg:flex-row items-center gap-10  px-10  md:px-32 ">
         <div class="flex-col space-y-8 ">
         <div>
           
@@ -168,7 +173,7 @@
       </section>
 
       <!-- Feedback Section -->
-      <section class="py-16 bg-slate-100 px-32 ">
+      <section class="py-16 bg-slate-100 px-10 md:px-32 ">
          <div class="flex flex-col lg:flex-row gap-5 bg-white rounded-lg p-10 text-slate-700 p-10">
           <div class="bg-base-100 w-full md:w-96 space-y-2">
             <div class="text-4xl text-center">
@@ -197,7 +202,7 @@
           </div>
             <div class="items-center text-center">
               <h2 class="text-2xl font-bold">30k+</h2>
-              <p>Our Happy Client</p>
+              <p class="text-sm text-gray-500 md:text-base">Our Happy Client</p>
             </div>
           </div>
 
@@ -207,7 +212,7 @@
             </div>
             <div class="items-center text-center">
               <h2 class="text-2xl font-bold">307+</h2>
-              <p>Staff Members</p>
+              <p class="text-sm text-gray-500 md:text-base">Staff Members</p>
               
             </div>
           </div>
@@ -215,10 +220,10 @@
 
       </section>
        <!-- How we works Section -->
-      <section class="py-16 bg-slate-100 px-32 ">
+      <section class="py-16 bg-slate-100 px-10 md:px-32">
         <div class="text-center space-y-5">
           <button class="bg-white p-2  rounded-full"><i class="fa-solid fa-arrow-right"></i> How we works</button>
-          <h1 class="text-3xl md:text-4xl font-bold">Our Works Process</h1>
+          <h1 class="text-xl md:text-2xl lg:text-3xl font-bold">Our Works Process</h1>
           <p class="text-sm text-gray-500 md:text-base">Green home construction, or eco-friendly house building, is all about creating houses 
             that are better for the environment.
              It's a smart and forward-thinking way of building homes, 
@@ -231,11 +236,11 @@
               <img
                 src="assets/concept.png"
                 alt="bulb image"
-                class="rounded-xl mt-10" />
+                class="rounded-xl mt-10  mr-44 mr-36" />
             </figure>
-            <div class="card-body items-center text-center mb-5">
-              <h2 class="card-title text-right text-lg  md:text-xl">Concept</h2>
-              <p>The most notable advantage of green building is its positive impact on the environment. By reducing water usage and minimising the reliance on non-renewable energy sources like fossil fuels, green buildings help protect our atmosphere and natural surroundings.</p>
+            <div class="card-body  mb-5  text-start">
+              <h2 class="card-title  text-lg  md:text-xl">Concept</h2>
+              <p class="text-sm text-gray-500 md:text-base">The most notable advantage of green building is its positive impact on the environment. By reducing water usage and minimising the reliance on non-renewable energy sources like fossil fuels, green buildings help protect our atmosphere and natural surroundings.</p>
               
               </div>
             </div>
@@ -243,13 +248,13 @@
             <div class="card bg-amber-200 shadow-x">
               <figure>
                 <img
-                  src="assets/flow-chart.png"
+                  src="./assets/flow-chart.png"
                   alt="bulb image"
-                  class="rounded-xl mt-10" />
+                  class="rounded-xl mt-10 mr-44  md:mr-36" />
               </figure>
-              <div class="card-body items-center text-center mb-5">
-                <h2 class="card-title text-right text-lg  md:text-xl">Design Process</h2>
-                <p>A sustainable house is a home that has the least possible negative impact on our environment. 
+              <div class="card-body   mb-5  text-justifytt">
+                <h2 class="card-title  text-lg  md:text-xl">Design Process</h2>
+                <p class="text-sm text-gray-500 md:text-base">A sustainable house is a home that has the least possible negative impact on our environment. 
                   Sustainability means energy efficiency, avoiding environmental toxins, and responsibly 
                   using materials and resources while having a positive physical and psychological effect on its inhabitants.</p>
                 
@@ -260,11 +265,11 @@
                   <img
                     src="assets/vision.png"
                     alt="bulb image"
-                    class="rounded-xl mt-10" />
+                    class="rounded-xl mt-10 mr-44 md:mr-36" />
                 </figure>
-                <div class="card-body items-center text-center mb-5">
-                  <h2 class="card-title text-right text-lg  md:text-xl">Supervision</h2>
-                  <p>Finding smart ways to power up our homes is an essential part of keeping up with the times.
+                <div class="card-body   mb-5 text-justifyt">
+                  <h2 class="card-title  text-lg  md:text-xl">Supervision</h2>
+                  <p class="text-sm text-gray-500 md:text-base">Finding smart ways to power up our homes is an essential part of keeping up with the times.
                     Instead of opting for mass-produced electricity, you can make your house energy efficient 
                     by choosing renewable energy sources.</p>
                   
@@ -273,21 +278,175 @@
                 <div class="card bg-blue-200 shadow-x">
                   <figure>
                     <img
-                      src="assets/budget-planning.png"
+                      src="./assets/budget-planning.png"
                       alt="bulb image"
-                      class="rounded-xl mt-10" />
+                      class="mt-10 mr-44  md:mr-36" />
                   </figure>
-                  <div class="card-body items-center text-center mb-5">
-                    <h2 class="card-title text-right text-lg  md:text-xl">Budget Planning</h2>
-                    <p>The most notable advantage of green building is its positive impact on the environment. By reducing water usage and minimising the reliance on non-renewable energy sources like fossil fuels, green buildings help protect our atmosphere and natural surroundings.</p>
+                  <div class="card-body mb-5 text-justify">
+                    <h2 class="card-title  text-lg  md:text-xl">Budget Planning</h2>
+                    <p class="text-sm text-gray-500 md:text-base">An eco-friendly portfolio refers to a collection of investment assets that prioritize environmental, social, 
+                      and governance (ESG) factors. This type of portfolio aims 
+                      to generate long-term financial returns while supporting sustainable and responsible business practices.</p>
                     
                     </div>
                   </div>
-        </div>
+                </div>
+              </section>
+              <!-- Explore our Latest Works Section -->
+              <section class="py-16 bg-white px-10 md:px-32">
+                <div class="text-center text-center space-y-5 mb-5">
+                  <button class="bg-lime-100 p-2  rounded-full"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
+                  <h1 class="text-xl md:text-2xl lg:text-3xl font-bold">Our Latest Portfolio</h1>
+                  <p class="text-sm text-gray-500 md:text-base">An eco-friendly portfolio refers to a collection 
+                    of investment assets that prioritize environmental, social, and governance (ESG) factors. This type of portfolio aims 
+                    to generate long-term financial returns while supporting sustainable and responsible business practices</p>
+             </div>
 
-        
-      </section>
+             <div class="flex flex-col lg:flex-row gap-4 items-center">
+             <div class="flex flex-col lg:flex-row gap-3 border-2 rounded-xl items-cente p-2">
+              <div class="ps-2 py-2">
+                <img  src="./assets/img1.png" alt="">
 
+              </div>
+              <div>
+                <h4 class="text-lg md:text-xl font-extrabold">Commercial</h4>
+                <p class="text-sm text-gray-500 md:text-base">The barn house captivates with its blend of rustic charm and modern. 
+                  The barn house captivates with its blend of rustic charm and modern .</p>
+                  <div>
+                    <button class="btn bg-white px-4 rounded-full border-none">View Details <i class="fa-solid fa-arrow-up-long bg-lime-500 rotate-45 rounded-full p-2"></i></button>
+                  </div>
+              </div>
+            </div>
+              <div class="border-2  rounded-xl p-4">
+                 <img src="assets/img2.png" alt="">
+              </div>
+              </div>
+              <div class="flex flex-col lg:flex-row gap-4 my-5  items-center">
+                <div class="border-2 rounded-lg p-4">
+                  <img src="assets/article3.png" alt="">
+                </div>
+                <div class="flex flex-col lg:flex-row gap-3 border-2 rounded-lg  items-center p-2">
+                  <div class="px-2">
+                    <img src="./assets/img4.png" alt="" srcset="">
+                  </div>
+                  <div>
+                    <h4 class="text-lg md:text-xl font-extrabold">Eco-Friendly Building</h4>
+                    <p>To minimize energy consumption, buildings are designed with solar panels, 
+                      green roofs, and advanced insulation techniques.</p>
+                      <div>
+                        <button class="btn bg-white px-4 rounded-full border-none">View Details <i class="fa-solid fa-arrow-up-long bg-lime-500 rotate-45 rounded-full p-2"></i></button>
+                      </div>
+                  </div>
+                </div>
+                <div class="border-2 p-4 rounded-lg">
+                  <img src="./assets/img5.png" alt="">
+                </div>
+              </div>
+            </section>
+
+            <!-- Rinterio News -->
+            <section class="my-24 bg-slate-100 px-10  md:px-32  py-20">
+              <div class="text-center space-y-5">
+                <button class="bg-lime-100 p-2  rounded-full"><i class="fa-solid fa-arrow-right"></i> Rinterio News</button>
+                <h1 class="text-xl md:text-2xl lg:text-3xl font-bold">Read Our Articles and News</h1>
+                <p class="text-sm text-gray-500 md:text-base">The prestigious World Interiors News Awards celebrates excellence in interior design, 
+                  recognizing innovative projects and outstanding professionals from around the world.</p>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center justify-center">
+                <div class="card bg-base-100  shadow p-3 my-10">
+                  <figure>
+                    <img
+                      src="./assets/article1.png"
+                      alt=""
+                      class="rounded-xl  p-3" />
+                  </figure>
+                  <div class="card-body items-center text-center text-justify">
+                    
+                    <div class="flex gap-5 mr-5">
+                      <div class="flex gap-2 items-cente">
+                        <div><i class="fa-solid fa-calendar-days"></i></div>
+                        <div><p class="text-sm text-gray-500 md:text-base">July14, 2024</p></div>
+                        
+                      </div>
+                      <div class="flex items-cente gap-3">
+                        <div><i class="fa-solid fa-user-tie"></i></div>
+                        <div><p class="text-sm text-gray-500 md:text-base">By Admin</p></div>
+                        
+                      </div>
+                    </div>
+                    <h2 class="card-title text-lg md:text-xl">Designers Share How To Boost Chances Of Winning A Best of Year Award</h2>
+                    <p class="text-sm text-gray-500 md:text-base">What does it take to win an Interior Design Best of Year Award? Past winners and honorees have a 
+                      keen understanding of what goes into a stellar submission, and they’re spilling their secrets.</p>
+                    <div class="card-actions mr-48">
+                      <button class="btn bg-white px-4 rounded-full border-none">Read More <i class="fa-solid fa-arrow-up-long bg-lime-500 rotate-45 rounded-full p-2"></i></button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card bg-base-100  shadow p-3 my-10">
+                  <figure>
+                    <img
+                      src="./assets/article2.png"
+                      alt=""
+                      class="rounded-xl  p-3" />
+                  </figure>
+                  <div class="card-body items-center  text-justify">
+                    
+                    <div class="flex gap-5 mr-5">
+                      <div class="flex gap-2 items-cente">
+                        <div><i class="fa-solid fa-calendar-days"></i></div>
+                        <div><p class="text-sm text-gray-500 md:text-base">July14, 2024</p></div>
+                        
+                      </div>
+                      <div class="flex items-cente gap-3">
+                        <div><i class="fa-solid fa-user-tie"></i></div>
+                        <div><p class="text-sm text-gray-500 md:text-base">By Admin</p></div>
+                        
+                      </div>
+                    </div>
+                    <h2 class="card-title  text-lg  md:text-xl">Designers Share How To Boost Chances Of Winning A Best of Year Award</h2>
+                    <p class="text-sm text-gray-500 md:text-base">What does it take to win an Interior Design Best of Year Award? Past winners and honorees have a 
+                      keen understanding of what goes into a stellar submission, and they’re spilling their secrets.</p>
+                    <div class="card-actions mr-48">
+                      <button class="btn bg-white px-4 rounded-full border-none">Read More <i class="fa-solid fa-arrow-up-long bg-lime-500 rotate-45 rounded-full p-2"></i></button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card bg-base-100  shadow p-3 my-10">
+                  <figure>
+                    <img
+                      src="./assets/article3.png"
+                      alt=""
+                      class="rounded-xl p-3" />
+                  </figure>
+                  <div class="card-body items-center text-center text-justify">
+                    
+                    <div class="flex gap-5 mr-5">
+                      <div class="flex gap-2 items-cente">
+                        <div><i class="fa-solid fa-calendar-days"></i></div>
+                        <div><p class="text-sm text-gray-500 md:text-base">July14, 2024</p></div>
+                        
+                      </div>
+                      <div class="flex items-cente gap-3">
+                        <div><i class="fa-solid fa-user-tie"></i></div>
+                        <div><p class="text-sm text-gray-500 md:text-base">By Admin</p></div>
+                        
+                      </div>
+                    </div>
+                    <h2 class="card-title text-lg md:text-xl">Designers Share How To Boost Chances Of Winning A Best of Year Award</h2>
+                    <p class="text-sm text-gray-500 md:text-base">What does it take to win an Interior Design Best of Year Award? Past winners and honorees have a 
+                      keen understanding of what goes into a stellar submission, and they’re spilling their secrets.</p>
+                    <div class="card-actions mr-48">
+                      <button class="btn bg-white px-4 rounded-full border-none">Read More<i class="fa-solid fa-arrow-up-long bg-lime-500 rotate-45 rounded-full p-2"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          </section>
+          
     </main>
   </body>
 </html>
